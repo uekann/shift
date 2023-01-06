@@ -4,3 +4,7 @@
 submit/*
 data/*
 output/*
+
+!submit/.keep
+!data/.keep
+!output/.keep
