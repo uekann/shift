@@ -1,8 +1,5 @@
 import pandas as pd
 
-pd.io.formats.excel.ExcelFormatter.header_style = None
-
-
 df_input = pd.read_excel("./data/shift_table.xlsx", index_col=[0, 1], header=0)
 shift = df_input.values
 names = list(df_input.columns)
